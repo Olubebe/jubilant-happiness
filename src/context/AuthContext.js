@@ -6,7 +6,7 @@ import {
   onAuthStateChanged,
   GoogleAuthProvider,
   signInWithPopup,
-  signInWithRedirect,
+  // signInWithRedirect,
 } from "firebase/auth";
 import { auth } from "../firebase";
 
@@ -39,7 +39,7 @@ export const AuthContextProvider = ({ children }) => {
     return () => {
       unsubscribe();
     };
-  }, []);
+  }, [user]);
 
   return (
     <UserContext.Provider
