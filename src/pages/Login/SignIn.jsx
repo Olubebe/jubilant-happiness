@@ -67,13 +67,7 @@ const SignIn = () => {
               <label>Password</label>
             </div>
             <GoogleButton onClick={handleGoogleSignIn} />
-            <button className="sign__btn">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <a href="">Sign In</a>
-            </button>
+            <button className="sign__btn">Sign In</button>
           </form>
           <p className="deport">
             Don't have an account ? <Link to="/signup">Sign Up</Link>

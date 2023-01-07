@@ -53,13 +53,7 @@ const SignUp = () => {
               />
               <label>Password</label>
             </div>
-            <button className="sign__btn">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <a href="">Sign In</a>
-            </button>
+            <button className="sign__btn">Sign Up</button>
             <p className="deport">
               Already have an account ? <Link to="/signin">Sign In</Link>
             </p>
