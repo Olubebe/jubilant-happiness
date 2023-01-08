@@ -40,6 +40,7 @@ function App() {
   return (
     <div>
       <div className="App">
+    <ErrorBoundary>
         <AuthContextProvider>
           <Navbar />
           <Routes>
@@ -60,7 +61,7 @@ function App() {
             <Route path="/signup" element={<SignUp />} />
 
             <Route path="*" element={<Errorpage />} />
-            <Route path="/errorpage" element={<ErrorBoundary />} />
+            
             <Route
               path="/account"
               element={
@@ -71,6 +72,7 @@ function App() {
             />
           </Routes>
         </AuthContextProvider>
+      </ErrorBoundary>
       </div>
     </div>
   );
