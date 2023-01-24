@@ -9,25 +9,21 @@
     
 }
 
-/* .npaginatied__container{
-    background: #fff;
-    display: flex;;
-}
 
-.paginated__btn{
-display: flex;
-justify-content: center;
-align-items: center;
-} */
 .page__conatiner{
+  height: 10vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-    color:#fff;
+
+  background: whitesmoke;
+  color: #000;
+
 }
 button{
-    padding: 10px;
-    margin: 5px;
+    padding: 20px;
+    margin: 10px;
     border: 1px solid #000;
     background-color: #fff;
     color: #000;

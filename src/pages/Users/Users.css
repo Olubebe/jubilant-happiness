@@ -6,8 +6,7 @@
   font-family: Poppins, sans-serif;
 }
 
-body{
-}
+
 .profile {
   display: flex;
   justify-content: center;
@@ -110,6 +109,10 @@ button[disabled] {
   background: #805fca;
   color: #fff;
   cursor: default;
+}
+.pagination{
+  height: 100%;
+  width: 100%;
 }
 
 @media only screen and (max-width: 600px) {

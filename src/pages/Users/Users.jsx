@@ -49,6 +49,7 @@ const Users = ({ user, totalPages, loading, currentPages, onPageChange }) => {
         )}
       </div>
       <Pagination
+        className="pagination"
         currentPages={currentPages}
         onPageChange={onPageChange}
         totalPages={totalPages}
