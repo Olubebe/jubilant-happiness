@@ -23,6 +23,7 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
+    color:#fff;
 }
 button{
     padding: 10px;
