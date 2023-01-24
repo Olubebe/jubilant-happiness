@@ -16,8 +16,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
   background: whitesmoke;
   color: #000;
+
 }
 button{
     padding: 20px;

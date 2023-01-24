@@ -22,8 +22,8 @@ const Navbar = () => {
           <Link to="/users" className="navbar-item">
             <li>Users</li>
           </Link>
-          <Link to="/errorpage" className="navbar-item">
-            <li>ErrorBoundary</li>
+          <Link to="*" className="navbar-item">
+            <li>ErrorPage</li>
           </Link>
           <Link to="/signin" className="navbar-item">
             <li>SignIn</li>
